@@ -1,0 +1,16 @@
+# Ignore Spark artifacts
+notebooks/artifacts/
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Ignore Jupyter
+.ipynb_checkpoints/
+
+# Ignore environment files
+.env
+venv/
+env/
