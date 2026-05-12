@@ -1,8 +1,10 @@
 # Ignore Spark artifacts
 notebooks/artifacts/
 
+
 # Ignore input data parquets (too large for GitHub)
 data/input_data/*.parquet
+data/output_data/*
 
 # Ignore Python cache
 __pycache__/
